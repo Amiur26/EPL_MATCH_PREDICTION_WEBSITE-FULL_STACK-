@@ -35,3 +35,8 @@ backend/project/app/migrations/__pycache__/
 
 # VS Code files
 .vscode/
+
+# Ignore NVIDIA NCCL large files
+backend/env/
+*.so
+*.so.*

@@ -11,10 +11,27 @@ __pycache__/
 *.pyd
 venv/
 env/
-db.sqlite3
+project/db.sqlite3
+
+# Ignore Django-specific files
+backend/project/db.sqlite3
+backend/project/media/  # Ignore media uploads if applicable
+backend/project/static/  # Ignore static files if applicable
+
+# Ignore migrations but keep the directory structure
+backend/project/app/migrations/
+!backend/project/app/migrations/__init__.py  # Keep init to avoid Django errors
+
+# Cache and compiled files
+backend/project/project/__pycache__/
+backend/project/app/__pycache__/
+backend/project/app/migrations/__pycache__/
 
 # OS Files
 .DS_Store
 
 # Environment Files
 .env
+
+# VS Code files
+.vscode/

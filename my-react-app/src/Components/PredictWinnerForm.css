@@ -1,0 +1,101 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    border-radius: 20px;
+  
+   
+    padding: 20px;
+}
+
+
+.heading {
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+   
+    
+}
+
+
+
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150%;
+    margin-bottom: 15px;
+}
+
+
+.select{
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 1rem;
+   
+    border-radius: 4px;
+}
+
+
+.button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+
+.winning-team {
+    margin-top: 20px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #28a745;
+    text-align: center;
+}
+
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+
+.slide-up {
+    animation: slideUp 1s ease-out;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

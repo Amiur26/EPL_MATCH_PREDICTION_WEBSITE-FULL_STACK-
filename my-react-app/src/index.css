@@ -1,0 +1,13 @@
+
+
+body {
+    background-image: url('./assets/images/Img4.jpg'); /* Relative path to your image */
+    background-size: cover; /* Ensures the image covers the whole screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed;
+    height: 100vh; /* Ensures the height of the body is at least 100% of the viewport height */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  

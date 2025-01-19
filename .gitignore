@@ -40,3 +40,5 @@ backend/project/app/migrations/__pycache__/
 backend/env/
 *.so
 *.so.*
+backend/env/
+*.so
